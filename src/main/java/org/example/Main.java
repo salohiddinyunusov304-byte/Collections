@@ -23,7 +23,5 @@ public class Main {
          * Elementlar unikal bo'lishi va avtomatik saralanib turishi kerak bo'lsa: TreeSet
          * Ma'lumotlarni lug'at (kalit $\rightarrow$ qiymat) ko'rinishida saqlash kerak bo'lsa: HashMap
          */
-
-
     }
 }
