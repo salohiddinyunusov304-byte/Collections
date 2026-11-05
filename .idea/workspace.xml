@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="68234b7d-0e3a-45ca-8a8b-f8def5d334f3" name="Changes" comment="Map">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Comparator_Comparable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Student.java" afterDir="false" />
+    <list default="true" id="68234b7d-0e3a-45ca-8a8b-f8def5d334f3" name="Changes" comment="View, Shallow Copy, Deep Copy, Iterator, ListIterator">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/StudentRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Deep_Copy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IteratorExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ListIterator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Shallow_Copy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ViewExample.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="view_typeofcopy_iterator" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="McpProjectServerCommands">
@@ -31,67 +40,67 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.5569810354816676E-5" />
-      <entry key="MS500" value="0.1723228637838771" />
-      <entry key="S2" value="1.1104499460178718" />
-      <entry key="S5" value="1.9530227208342743" />
-      <entry key="S10" value="2.7417849659557487" />
-      <entry key="S30" value="4.7170053110662575" />
-      <entry key="S60" value="7.14795765471237" />
-      <entry key="M2" value="11.33584748574144" />
-      <entry key="M5" value="21.091300836507177" />
-      <entry key="M10" value="31.50175653659936" />
-      <entry key="M15" value="37.92878684108271" />
-      <entry key="M30" value="47.41872637057704" />
-      <entry key="H1" value="53.89748480715445" />
-      <entry key="H2" value="57.855026104427075" />
-      <entry key="H4" value="64.3271180312906" />
-      <entry key="D1" value="145.3182481476199" />
-      <entry key="W1" value="199.94967331962306" />
+      <entry key="MS100" value="1.0000000330689145" />
+      <entry key="MS500" value="1.0360131050098622" />
+      <entry key="S2" value="1.715870630722328" />
+      <entry key="S5" value="2.7573903262761315" />
+      <entry key="S10" value="3.8215566339857796" />
+      <entry key="S30" value="6.1312381831039495" />
+      <entry key="S60" value="8.55282759320298" />
+      <entry key="M2" value="12.008430948440482" />
+      <entry key="M5" value="23.40551435621491" />
+      <entry key="M10" value="46.00927698210581" />
+      <entry key="M15" value="67.34651664892523" />
+      <entry key="M30" value="117.41536895982398" />
+      <entry key="H1" value="171.70854570383904" />
+      <entry key="H2" value="214.5160744578377" />
+      <entry key="H4" value="245.43298267308305" />
+      <entry key="D1" value="349.33047302460386" />
+      <entry key="W1" value="410.5509349734791" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0000000000047016" />
-      <entry key="MS500" value="1.0054299758030756" />
-      <entry key="S2" value="1.317122362873071" />
-      <entry key="S5" value="1.8846356143479763" />
-      <entry key="S10" value="2.310006331019868" />
-      <entry key="S30" value="2.83085594705564" />
-      <entry key="S60" value="3.6283313909966877" />
-      <entry key="M2" value="6.086948821951585" />
-      <entry key="M5" value="14.859834524190905" />
-      <entry key="M10" value="25.400410097352253" />
-      <entry key="M15" value="32.01682378262923" />
-      <entry key="M30" value="41.838370950999916" />
-      <entry key="H1" value="48.56607614218884" />
-      <entry key="H2" value="52.59341002952503" />
-      <entry key="H4" value="56.42895031240569" />
-      <entry key="D1" value="87.95598312875066" />
-      <entry key="W1" value="108.48922368679585" />
+      <entry key="MS100" value="6.497575122039976E-57" />
+      <entry key="MS500" value="5.818041874000364E-12" />
+      <entry key="S2" value="0.0019671074975931703" />
+      <entry key="S5" value="0.12784633985667568" />
+      <entry key="S10" value="0.7075116055952078" />
+      <entry key="S30" value="4.198795458537573" />
+      <entry key="S60" value="9.025162641437642" />
+      <entry key="M2" value="15.187110576866015" />
+      <entry key="M5" value="26.030100985722004" />
+      <entry key="M10" value="40.00450432435368" />
+      <entry key="M15" value="52.43153609451529" />
+      <entry key="M30" value="81.84023390438796" />
+      <entry key="H1" value="114.5175334903765" />
+      <entry key="H2" value="140.78936501929496" />
+      <entry key="H4" value="159.13473076665986" />
+      <entry key="D1" value="204.7360286971843" />
+      <entry key="W1" value="228.78766146014152" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.77236873459332E-5" />
-      <entry key="MS500" value="0.2211316091178646" />
-      <entry key="S2" value="1.7685550119326947" />
-      <entry key="S5" value="3.3742565596520064" />
-      <entry key="S10" value="4.734514514301088" />
-      <entry key="S30" value="7.385425847356744" />
-      <entry key="S60" value="10.65316907645206" />
-      <entry key="M2" value="17.321049659138062" />
-      <entry key="M5" value="35.87034740507259" />
-      <entry key="M10" value="56.84099480682966" />
-      <entry key="M15" value="69.89658853615356" />
-      <entry key="M30" value="89.22663980857318" />
-      <entry key="H1" value="102.44633399210184" />
-      <entry key="H2" value="110.4392265313537" />
-      <entry key="H4" value="120.75112728023025" />
-      <entry key="D1" value="233.27285862359463" />
-      <entry key="W1" value="308.4386490708439" />
+      <entry key="MS100" value="4.256435135218539E-5" />
+      <entry key="MS500" value="0.14513459834794148" />
+      <entry key="S2" value="1.1205950518552008" />
+      <entry key="S5" value="2.4769884584709043" />
+      <entry key="S10" value="4.2286291919525025" />
+      <entry key="S30" value="10.132286266773361" />
+      <entry key="S60" value="17.424724425414826" />
+      <entry key="M2" value="27.085648450634665" />
+      <entry key="M5" value="49.36226406514327" />
+      <entry key="M10" value="85.95278681907016" />
+      <entry key="M15" value="119.72173931935993" />
+      <entry key="M30" value="199.20842499210897" />
+      <entry key="H1" value="286.1918632664256" />
+      <entry key="H2" value="355.2840652258843" />
+      <entry key="H4" value="404.5555051390674" />
+      <entry key="D1" value="554.0637285899663" />
+      <entry key="W1" value="639.3381411483036" />
     </decayedShown>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5,
-  "fromUser": false
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3LamTlvt0JhZTPIXGHWfs6pXQRD" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -104,18 +113,23 @@
   "keyToString": {
     "Application.ArrayList.executor": "Run",
     "Application.Comparator_Comparable.executor": "Run",
+    "Application.IteratorExample.executor": "Run",
     "Application.LinkedList.executor": "Run",
+    "Application.ListIterator.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MapExample.executor": "Run",
     "Application.QueueExample.executor": "Run",
     "Application.SetExample.executor": "Run",
+    "Application.Shallow_Copy.executor": "Run",
+    "Application.ViewExample.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "collection__framework__algorithms",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -125,6 +139,11 @@
     "onboarding.tips.debug.path": "/Users/salohiddinyunusov/Java Core/Collections/src/main/java/org/example/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -149,6 +168,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="List, Set" />
     <MESSAGE value="Map" />
-    <option name="LAST_COMMIT_MESSAGE" value="Map" />
+    <MESSAGE value="Comparator and Comparable" />
+    <MESSAGE value="View, Shallow Copy, Deep Copy, Iterator, ListIterator" />
+    <option name="LAST_COMMIT_MESSAGE" value="View, Shallow Copy, Deep Copy, Iterator, ListIterator" />
   </component>
 </project>
